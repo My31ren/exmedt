@@ -1,0 +1,22 @@
+Package: exmedt
+Title:  Estimating and screening potential mediation pathways of indigenous biomarkers (i.e., mediator) between external environmental exposure and health outcome in a user friendly and efficient way.
+Version: 1.0.0
+Authors@R: 
+    c(
+    person(given='Mengyuan',
+    family = 'Ren',
+    role= c('aut','cre'),
+    email = "myren@bjmu.edu.cn"),
+    person(given='bin',
+    family = 'Wang',
+    role= c('aut','cph'),
+    email = "binwang@pku.edu.cn")
+    )
+Description: Estimating and screening potential mediation pathways of indigenous biomarkers (i.e., mediator) between 
+    external environmental exposure and health outcome in a user friendly and efficient way. 
+    Especially,when the number and category of exposures and mediators are of high dimension.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: httr,vroom,ggplot2,readxl,gridExtra,grid
