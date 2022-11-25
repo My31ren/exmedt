@@ -16,7 +16,8 @@ The exmedt package is designed for estimating and screening potential mediation 
 	library(exmedt)
 	library(extidy) 
 
-#### Tips:
+
+### Tips:
 1. Before using the package, a user defined physical output path (i.e., OutPath) is recommended. For example
 
 		OutPath = "D:/test" #The default path is the current working directory of R. Users can use this code to set the preferred path.
@@ -25,7 +26,8 @@ The exmedt package is designed for estimating and screening potential mediation 
 
 3. All the PID must be the same with the one provided by InitMedt function, e.g., res$PID.
 
-#### Example codes:
+
+### Example codes:
 ##### 1. Initial Mediation module:
 	res <- InitMedt()
 	res$PID
