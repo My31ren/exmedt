@@ -2,7 +2,11 @@
 ### Author: Mengyuan Ren (myren@bjmu.edu.cn)
 ### Date: 2022-11-25
 
-The exmedt package is designed for estimating and screening potential mediation pathways of indigenous biomarkers (i.e., mediator) between external environmental exposure and health outcome in a user friendly and efficient way. Especially, when the number and category of exposures and mediators are of high dimension. Please see the website (http://www.exposomex.cn/#/expomediation) for more information. Users can install the package using the following code:
+The exmedt package is designed for estimating and screening potential mediation pathways of indigenous biomarkers (i.e., mediator) between external environmental exposure and health outcome in a user friendly and efficient way. Especially, when the number and category of exposures and mediators are of high dimension. Please see the website (http://www.exposomex.cn/#/expomediation) for more information. 
+
+![image](https://github.com/My31ren/ExpoMediation/blob/main/FirstPage_Picture%20(4).png)
+
+Users can install the package using the following code:
 
 	if (!requireNamespace("devtools", quietly = TRUE)){
 
@@ -16,7 +20,7 @@ The exmedt package is designed for estimating and screening potential mediation 
 	library(exmedt)
 	library(extidy) 
 
-![image](https://github.com/My31ren/ExpoMediation/blob/main/FirstPage_Picture%20(4).png)
+
 ### Tips:
 1. Before using the package, a user defined physical output path (i.e., OutPath) is recommended. For example
 
