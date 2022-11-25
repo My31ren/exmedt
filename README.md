@@ -16,7 +16,7 @@ The exmedt package is designed for estimating and screening potential mediation 
 	library(exmedt)
 	library(extidy) 
 
-
+![image](https://github.com/My31ren/ExpoMediation/blob/main/FirstPage_Picture%20(4).png)
 ### Tips:
 1. Before using the package, a user defined physical output path (i.e., OutPath) is recommended. For example
 
